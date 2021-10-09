@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "code-scanner",
+    "slug": "code-scanner",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "code-scanner"
+}

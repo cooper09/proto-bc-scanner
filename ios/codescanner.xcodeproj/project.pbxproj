@@ -309,11 +309,13 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.codescanner;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horatio09.codescanner";
 				PRODUCT_NAME = codescanner;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				TARGETED_DEVICE_FAMILY = 1;
+				CODE_SIGN_ENTITLEMENTS = codescanner/codescanner.entitlements;
 			};
 			name = Debug;
 		};
@@ -332,10 +334,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.codescanner;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horatio09.codescanner";
 				PRODUCT_NAME = codescanner;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				TARGETED_DEVICE_FAMILY = 1;
+				CODE_SIGN_ENTITLEMENTS = codescanner/codescanner.entitlements;
 			};
 			name = Release;
 		};
@@ -394,6 +398,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				CODE_SIGN_ENTITLEMENTS = codescanner/codescanner.entitlements;
 			};
 			name = Debug;
 		};
@@ -445,6 +450,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				CODE_SIGN_ENTITLEMENTS = codescanner/codescanner.entitlements;
 			};
 			name = Release;
 		};

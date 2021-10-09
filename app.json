@@ -5,7 +5,18 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "code-scanner"
+    ],
+    "sdkVersion": "42.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.horatio09.codescanner"
+    },
+    "ios": {
+      "bundleIdentifier": "com.horatio09.codescanner"
+    }
+  }
 }

@@ -76,7 +76,7 @@ export default function App() {
                         <Text style={{fontSize: 18, margin: 5, color: 'white'}}> Flip </Text>
                     </TouchableOpacity>
                 </View>
-                <BarcodeMask edgeColor="#62B1F6" showAnimatedLine/>
+                <BarcodeMask edgeColor="#62B1F6" showAnimatedLine width={300} height={150}/>
                 {scanned && <Button title="Scan Again" onPress={() => setScanned(false)}/>}
       </BarCodeScanner>
     </View>
